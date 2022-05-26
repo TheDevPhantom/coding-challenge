@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="452" height="452" viewBox="0 0 452 452">
+  <defs>
+    <filter id="Rectangle_1" x="0" y="0" width="452" height="452" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-color="#0e3984" flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#367fff"/>
+      <stop offset="1" stop-color="#2a78ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fcfdfd"/>
+      <stop offset="1" stop-color="#c6ddee"/>
+    </linearGradient>
+  </defs>
+  <g id="challenge-logo" transform="translate(-737 -295)">
+    <g transform="matrix(1, 0, 0, 1, 737, 295)" filter="url(#Rectangle_1)">
+      <rect id="Rectangle_1-2" data-name="Rectangle 1" width="302" height="302" rx="65" transform="translate(75 65)" fill="#fff" opacity="0.3"/>
+    </g>
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="302" height="302" rx="65" transform="translate(749.454 511) rotate(-45)" opacity="0.8" fill="url(#linear-gradient)"/>
+    <path id="Icon_awesome-code" data-name="Icon awesome-code" d="M71.715,131.51l-15.684-4.551a3.09,3.09,0,0,1-2.108-3.831l35.1-120.9A3.09,3.09,0,0,1,92.851.122l15.684,4.551A3.09,3.09,0,0,1,110.643,8.5l-35.1,120.9a3.081,3.081,0,0,1-3.831,2.108ZM42.4,102.661l11.185-11.93a3.085,3.085,0,0,0-.206-4.422l-23.3-20.492,23.3-20.492a3.064,3.064,0,0,0,.206-4.422L42.4,28.97a3.089,3.089,0,0,0-4.371-.129L.982,63.553a3.065,3.065,0,0,0,0,4.5l37.051,34.737a3.066,3.066,0,0,0,4.371-.129Zm84.13.154,37.051-34.737a3.065,3.065,0,0,0,0-4.5L126.533,28.816a3.114,3.114,0,0,0-4.371.129l-11.185,11.93a3.085,3.085,0,0,0,.206,4.422l23.3,20.518-23.3,20.492a3.064,3.064,0,0,0-.206,4.422l11.185,11.93A3.09,3.09,0,0,0,126.533,102.815Z" transform="translate(880.717 445.18)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>
