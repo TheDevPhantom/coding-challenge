@@ -20,7 +20,7 @@ If you have any questions feel free to contact me via email or through my social
 #### Clone this repo
 
 ```
-git clone https://github.com/TheDevPhantom/node-base.git
+git clone https://github.com/TheDevPhantom/coding-challenge.git
 ```
 
 #### CD into server
